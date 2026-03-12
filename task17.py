@@ -1,5 +1,7 @@
-harorat = input("haroratni kiriting:")
+login = input("login: ")
+password = input("password: ")
 
-result = int(harorat)>100
-
-print(result)
+if login != password:
+    print(True)
+else:
+    print(False)

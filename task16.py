@@ -1,6 +1,7 @@
-log = input("login kiriting:")
-kod = input("kodni kiriting:")
+password = input("password: ")
+confirm = input("confirm: ")
 
-result = log == kod == log and kod
-
-print(result)
+if password == confirm:
+    print(True)
+else:
+    print(False)

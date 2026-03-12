@@ -1,6 +1,6 @@
-input_username = input("Foydalanuvchi nomini kiriting: ")
-expected_username = "admin"
+price = float(input("price: "))
 
-natija = input_username == expected_username
-
-print(natija)
+if price < 100:
+    print(True)
+else:
+    print(False)

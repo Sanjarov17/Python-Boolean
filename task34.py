@@ -1,6 +1,6 @@
-yil= int(input("yilni kiriting"))
+language = input("language: ")
 
-result = yil % 2 ==0
-
-
-print(result)
+if language != "uz" and language != "en":
+    print(True)
+else:
+    print(False)

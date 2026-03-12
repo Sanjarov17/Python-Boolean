@@ -1,6 +1,6 @@
-yosh = float(input("yoshni kiriting:"))
+year = int(input("year: "))
 
-result = int(yosh) <60
-
-print(result)
-#
+if year % 2 == 0:
+    print(True)
+else:
+    print(False)

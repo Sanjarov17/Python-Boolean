@@ -1,7 +1,7 @@
-loggen_in = input("login:")
+logged_in = input('(True/False): ')
+session_time = int(input('session_time: '))
 
-session = input("session:")
-
-result = loggen_in == session
-
-print(result)
+if logged_in == 'False' or session_time == 0:
+    print(True)
+else:
+    print(False)

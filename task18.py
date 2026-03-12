@@ -1,5 +1,6 @@
-harorat = input("haroratni kiriting:")
+temperature = float(input("temp: "))
 
-result = int(harorat)<0
-
-print(result)
+if temperature >= 100:
+    print(True)
+else:
+    print(False)

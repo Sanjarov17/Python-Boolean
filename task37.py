@@ -1,5 +1,7 @@
-til = input ("tilni kiriting:")
+pin = input("pin: ")
+correct_pin = input("correct pin: ")
 
-result = (til) == "uz" == 'en'
-
-print(result)
+if pin != correct_pin or len(pin) != 4:
+    print(True)
+else:
+    print(False)

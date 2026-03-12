@@ -1,6 +1,6 @@
-son = input ("son kiriting:" )
+phone = input("phone: ")
 
-result = len(son) 
-
-print(result)
-            
+if len(phone) == 9:
+    print(True)
+else:
+    print(False)

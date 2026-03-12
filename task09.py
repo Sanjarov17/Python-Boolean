@@ -1,5 +1,7 @@
-ball = float(input("ballni kiriting:"))
+username = input("username: ")
+expected = input("expected: ")
 
-result = int(ball) > 60
-
-print(result)
+if username == expected:
+    print(True)
+else:
+    print(False)

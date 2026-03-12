@@ -1,6 +1,7 @@
-loggen_in = input("login:")
-is_admin = input("admin:")
+logged = input("True/False: ")
+time = int(input("time: "))
 
-result = loggen_in ==  is_admin
-
-print(result)
+if logged == "False" or time == 0:
+    print(True)
+else:
+    print(False)

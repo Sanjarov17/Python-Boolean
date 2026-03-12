@@ -1,5 +1,6 @@
-yosh = input("yoshingizni kiriting:")
+password = input("password: ")
 
-result = int(yosh)<13
-
-print(result)
+if len(password) >= 8:
+    print(True)
+else:
+    print(False)

@@ -1,10 +1,6 @@
-name = input("Ismingizni kiriting: ")
+name = input('name: ')
 
-
-birinchi_harf = name[0]
-
-
-natija = birinchi_harf.isupper()  
-
-
-print(natija)
+if name != "" and  name[0] in 'QWERTYUIOPLKJHGFDSAZXCVBNM'
+    print(True)
+else:
+    print(False)

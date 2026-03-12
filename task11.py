@@ -1,8 +1,7 @@
-left_days = 10
+entered = input("enter: ")
+secret = input("secret: ")
 
-left_days -=9
-left_days -=18
-
-result = left_days <= 0 
-
-print(result)
+if entered == secret:
+    print(True)
+else:
+    print(False)

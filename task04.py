@@ -1,5 +1,6 @@
-parol = input("Parolni kiriting:")
+email = input("email: ")
 
-result = len(parol) > 8 
-
-print(result)
+if "@" in email:
+    print(True)
+else:
+    print(False)

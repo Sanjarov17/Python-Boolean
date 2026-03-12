@@ -1,5 +1,7 @@
-temperature = input("haroratni kiriting:")
+typing = input("True/False: ")
+username = input("username: ")
 
-result = int(temperature) >37.5 <= 42
-
-print(result)
+if typing == "True" and username == "":
+    print(True)
+else:
+    print(False)

@@ -1,6 +1,6 @@
-n = int(input("n ="))
+password = input("password: ")
 
-result = n % 2 ==0
-
-
-print(result)
+if password == "":
+    print(False)
+else:
+    print(True)

@@ -1,5 +1,6 @@
-harf = input("enter one letter:")
+stock = int(input("stock: "))
 
-result = "A" <= harf <= "Z"
-print(result)
-             
+if stock == 0:
+    print(True)
+else:
+    print(False)

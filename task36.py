@@ -1,6 +1,6 @@
-auto_update = True
-mode = input("rejimni kiriting:")
+name = input("name: ")
 
-result = (mode == 'light_mode') and auto_update
-
-print(result)
+if name[0] in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+    print(True)
+else:
+    print(False)

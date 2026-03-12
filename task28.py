@@ -1,6 +1,7 @@
-password = input("kodni kiriting:")
-secret = input("qaytadan kiriting:")
+gender = input("gender: ")
+age = int(input("age: "))
 
-result = password == secret
-
-print(result)
+if gender == "male" or age > 60:
+    print(True)
+else:
+    print(False)

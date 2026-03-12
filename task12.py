@@ -1,5 +1,6 @@
-stock = 0
+days_left = int(input("days: "))
 
-result = stock == 0
- 
-print(result)
+if days_left <= 0:
+    print(True)
+else:
+    print(False)

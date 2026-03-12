@@ -1,6 +1,6 @@
-password = input("kodni kiriting:")
-confirm = input("qaytadan kiriting:")
+price = float(input("price: "))
 
-result = password ==confirm 
-
-print(result)
+if price > 500000:
+    print(True)
+else:
+    print(False)

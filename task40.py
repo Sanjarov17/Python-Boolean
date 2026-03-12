@@ -1,6 +1,7 @@
-pin = input("PIN kodni kiriting: ")
-correct_pin = "1234"
+pin = input('pin: ')
+correct_pin = input('correct_pin: ')
 
-natija = pin != correct_pin or len(pin) != 4
-
-print(natija)
+if pin != correct_pin or len(pin) != 4:
+    print(True)
+else:
+    print(False)

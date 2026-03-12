@@ -1,6 +1,7 @@
-is_admin = True
-is_logged_in  = False
-result = is_admin and is_logged_in
-print(result)
+in_stock = input("True/False: ")
+on_delivery = input("True/False: ")
 
-
+if in_stock == "True" or on_delivery == "True":
+    print(True)
+else:
+    print(False)

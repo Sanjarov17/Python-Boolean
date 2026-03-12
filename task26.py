@@ -1,5 +1,6 @@
-model = input ("rejimni kiriting:")
+is_typing = input("True/False: ")
 
-result = (model) == 'light_mode'
-
-print(result)
+if is_typing == "False":
+    print(True)
+else:
+    print(False)

@@ -1,6 +1,7 @@
-loggen_in = input("login:")
-is_admin = input("admin:")
+auto_update = input("True/False: ")
+mode = input("mode: ")
 
-result = loggen_in ==  is_admin
-
-print(result)
+if auto_update == "True" and mode == "light":
+    print(True)
+else:
+    print(False)

@@ -1,6 +1,7 @@
-in_stock = input("mahsulotni kiriting:")
-in_delivery = input("yana kiriting:")
+online = input("True/False: ")
+typing = input("True/False: ")
 
-result = in_stock ==  in_delivery
-
-print(result)
+if online == "True" and typing == "False":
+    print(True)
+else:
+    print(False)

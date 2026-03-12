@@ -1,7 +1,6 @@
-maxfiy = "key987"
+ball = int(input("ball: "))
 
-kiritish = input("maxfiy so'zni kiriting:")
-
-result = maxfiy == kiritish
-
-print( result)
+if ball > 60:
+    print(True)
+else:
+    print(False)

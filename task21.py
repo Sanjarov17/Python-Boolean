@@ -1,5 +1,7 @@
-til = input ("tilni kiriting:")
+is_admin = input("True/False: ")
+is_logged = input("True/False: ")
 
-result = (til) == 'uz'
-
-print(result)
+if is_admin == "True" and is_logged == "True":
+    print(True)
+else:
+    print(False)

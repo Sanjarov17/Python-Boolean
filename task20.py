@@ -1,4 +1,6 @@
-status = input("enter status:")
+dark_mode = input("True/False: ")
 
-result = status == 'typing'
-print(result)
+if dark_mode == "True":
+    print(True)
+else:
+    print(False)

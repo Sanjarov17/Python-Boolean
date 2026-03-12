@@ -1,5 +1,6 @@
-username = input("Enter your username: ")
+username = input("username: ")
 
-result = len(username) > 0
-
-print(result)
+if username != "":
+    print(True)
+else:
+    print(False)

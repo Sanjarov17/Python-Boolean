@@ -1,6 +1,6 @@
-password = input("kodni kiriting:")
-confirm = input("qaytadan kiriting:")
+password = input("password: ")
 
-result = password ==confirm 
-
-print(result)
+if password != "" and password != "secret":
+    print(True)
+else:
+    print(False)

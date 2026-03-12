@@ -1,5 +1,7 @@
-online = input("enter status:")
-is_typing = online == 'typing'
+logged = input("True/False: ")
+admin = input("True/False: ")
 
-result = online == 'typing'
-print(result)
+if logged == "True" and admin == "False":
+    print(True)
+else:
+    print(False)

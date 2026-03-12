@@ -1,5 +1,6 @@
-email = input(" Enter your email:")
+email = input("email: ")
 
-result = "@" in email 
-
-print(result)
+if "@" in email and email.endswith(".com"):
+    print(True)
+else:
+    print(False)

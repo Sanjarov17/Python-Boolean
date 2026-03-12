@@ -1,4 +1,6 @@
-is_typing = input("enter status:")
+temp = float(input("temp: "))
 
-result = is_typing == 'typing'
-print(result)
+if temp >= 37.5 and temp <= 42:
+    print(True)
+else:
+    print(False)

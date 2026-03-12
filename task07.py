@@ -1,5 +1,6 @@
-narx = float(input("narxni kiriting:"))
+age = int(input("age: "))
 
-result = int(narx) < 100000 
-
-print(result)
+if age >= 13:
+    print(True)
+else:
+    print(False)

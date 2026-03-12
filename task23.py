@@ -1,5 +1,6 @@
-month1 = input("enter month1:")
-month2 = input("enter month2:")
+mode = input("mode: ")
 
-result = month1 == month2
-print(result)
+if mode == "light" or mode == "dark":
+    print(True)
+else:
+    print(False)

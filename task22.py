@@ -1,5 +1,6 @@
-model = input ("rejimni kiriting:")
+password = input("password: ")
 
-result = (model) == 'dark_mode'
-
-print(result)
+if password != "secret123":
+    print(True)
+else:
+    print(False)

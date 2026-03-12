@@ -1,5 +1,6 @@
-yil = int(input("yilni kiriting"))
+temperature = float(input("temp: "))
 
-result = (yil % 4 == 0 and yil % 100 != 0) or (yil % 400 == 0)
-
-print(result)
+if temperature < 0:
+    print(True)
+else:
+    print(False)

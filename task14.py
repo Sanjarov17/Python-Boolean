@@ -1,5 +1,6 @@
-narx = float(input("narxni kiriting:"))
+letter = input("harf: ")
 
-result = int(narx) < 500000 
-
-print(result)
+if letter in "QWERTYUIOPLKJHGFDSAZXCVBNM":
+    print(True)
+else:
+    print(False)
